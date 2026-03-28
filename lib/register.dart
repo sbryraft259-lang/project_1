@@ -69,17 +69,6 @@ class _RegisterPageState extends State<RegisterPage> {
         ScaffoldMessenger.of(
           context,
         ).showSnackBar(SnackBar(content: Text(data['message'] ?? "حدث خطا")));
-
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => OtpPage(
-              email: _emailController.text.trim(),
-              name: "${_firstNameController.text} ${_lastNameController.text}",
-              password: _passwordController.text,
-            ),
-          ),
-        );
       }
     } catch (e) {
       setState(() => isLoading = false);

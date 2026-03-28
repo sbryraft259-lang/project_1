@@ -72,6 +72,7 @@ flutter:
     - model/f4b2cb26660ccea98c2c821f1d6176e690deeb6e.jpg
     - model/f10d6b2ee44ad989e5eed877cec1c2da1ab2ae1b.jpg
     - model/f527f91ec7432a0e10eace96077985dfa2f7f7a0.jpg
+    - assets/animations/
  
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
